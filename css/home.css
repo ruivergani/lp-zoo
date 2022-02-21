@@ -139,7 +139,7 @@
 }
 .s-animals .container .animals__figures{
     display: flex;
-    gap: 15px;
+    gap: 1.5rem;
 }
 .s-animals .container .animals__figures img {
     transition: all 0.3s;
@@ -150,5 +150,54 @@
 .s-animals .container .animals__figures .figures__square{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1.5rem;
+}
+/* === Section Phrase === */
+.s-phrase{
+    background-color: var(--secondary-color);
+}
+.s-phrase .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 59.2rem;
+    padding: 6.4rem 0 7.8rem 0;
+    text-align: center;
+}
+.s-phrase .container img{
+    padding-bottom: 3rem;
+}
+.s-phrase .container p{
+    color: rgba(255, 255, 255, 0.81);
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.4rem;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+.s-phrase .phrase__author{
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: 37rem;
+    justify-content: center;
+    position: relative;
+}
+.s-phrase .phrase__author img{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+.s-phrase .phrase__author p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: -0.5px;
+    color: rgba(255, 255, 255, 0.74);
+
 }
