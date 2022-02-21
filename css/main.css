@@ -1,0 +1,10 @@
+/*  main css file */
+@import url(reset.css);
+@import url(variables.css);
+@import url(grid.css);
+@import url(titles.css);
+@import url(components.css);
+@import url(buttons.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(home.css);
