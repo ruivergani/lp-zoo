@@ -29,3 +29,23 @@
     display: flex;
     gap: 3rem;
 }
+.s-hero .social-media ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.s-hero .social-media ul li a{
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0.4;
+    border: 1px solid #7A7786;
+    box-sizing: border-box;
+    backdrop-filter: blur(30px);
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
