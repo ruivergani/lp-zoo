@@ -58,7 +58,58 @@
 body{
     background-color: rgb(197, 197, 197);
 }
+
 /* Section Promotion */
-.s-promotion{
-    
+.s-promotion .container{
+    background-color: var(--white);
+    display: flex;
+    width: 100%;
+    max-width: 100.9rem;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    z-index: 500;
+    margin-top: -60px;
+    box-shadow: 0px 0px 40px rgba(122, 119, 134, 0.1);
+    margin-bottom: 11.5rem;
+    padding: 0px !important;
+}
+.s-promotion .container .s-promotion__hours, .s-promotion__event, .s-promotion__donate{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    padding: 67px 30px;
+}
+.s-promotion .container .s-promotion__hours{
+    box-shadow: 0px 0px 40px rgba(122, 119, 134, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.s-promotion .container .s-promotion__event{
+    border-right: 1.5px solid rgb(225, 224, 231, 0.8);
+}
+.s-promotion__hours__text p{
+    padding-top: 1rem;
+    color: var(--grey-400);
+    font-family: Mulish;
+    font-size: 2rem;
+    line-height: 112%;
+    letter-spacing: -0.5px;
+}
+.icon__subtitle{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    align-items: center;
+}
+.icon__subtitle p{
+    color: var(--grey-300);
+    margin-right: 1.5rem;
+    transition: all 0.3s;
+}
+.s-promotion__event a p:hover, .s-promotion__donate a p:hover{
+    color: var(--grey-600);
 }
