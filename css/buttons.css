@@ -2,7 +2,7 @@
     display: inline-block;
     border-radius: 12rem;
     transition: all 0.3s;
-    font-size: 1.6rem;
+   
 }
 .btn-primary, .btn-secondary{
     background-color: var(--primary-color);
@@ -20,6 +20,7 @@
     backdrop-filter: blur(30px);
     /* Note: backdrop-filter has minimal browser support */
     color: var(--white);
+    padding: 0 6.3rem;
 }
 .btn-secondary:hover{
     background-color: rgba(255, 255, 255, 0.144);
