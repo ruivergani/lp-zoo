@@ -1,0 +1,56 @@
+.btn-primary, .btn-secondary{
+    background-color: var(--primary-color);
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #183C0A;
+    border-radius: 12rem;
+    line-height: 5.2rem; /* align center */
+    display: inline-block;
+    padding: 0 2.9rem;
+    transition: all 0.3s;
+}
+.btn-primary:hover{
+    background-color: rgba(122, 204, 0, 0.85);
+    transition: all 0.3s;
+}
+.btn-secondary{
+    background: var(--white-blur);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    color: var(--white);
+}
+.btn-secondary:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+    transition: all 0.3s;
+}
+.btn-light{
+    display: inline-block;
+    line-height: 4.1rem;
+    border-radius: 12rem;
+    padding: 0px 4rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    box-sizing: border-box;
+    backdrop-filter: blur(30px);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+.btn-light:hover{
+    background: rgba(255, 255, 255, 0.165);
+}
+.btn-secondary-light{
+    border: 1px solid var(--secondary-color);
+    box-sizing: border-box;
+    border-radius: 12.2rem;
+    line-height: 4.1rem;
+    padding: 0 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+}

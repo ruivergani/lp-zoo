@@ -1,0 +1,17 @@
+:root{
+    --primary-color: #7BCC00;
+    --secondary-color: #88B300;
+    --text-dark: #183C0A;
+    --brand-yellow: #FFC800;
+    --text-light: #5c940d;
+    --bg-light: rgba(92, 148, 13, 0.1);
+    --white-blur: rgba(255, 255, 255, 0.1);
+    --grey-600: #33303E;
+    --grey-500: #4E4B59;
+    --grey-400: #5F5C6B;
+    --grey-300: #7A7786;
+    --grey-200: #C6C5CE;
+    --grey-100: #F1F0F5;
+    --white: #FFFFFF;
+}
+
