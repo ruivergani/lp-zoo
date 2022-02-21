@@ -1,0 +1,32 @@
+h1,h2,h3,h4{
+    font-family: 'Mulish', sans-serif;
+}
+h1,h2{
+    line-height: 112%;
+    /* identical to box height, or 72px */
+}
+h1{
+    /* Heading 01 */
+    font-weight: 800;
+    font-size: 6.4rem;
+}
+h2{
+    font-weight: bold;
+    font-size: 4rem;
+}
+h3,h4{
+     /* identical to box height, or 36px */
+     letter-spacing: -0.5px;
+}
+h3{
+    /* Heading 03 */
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 150%;
+}
+h4{
+    /* Heading 04 */
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 120%;
+}
