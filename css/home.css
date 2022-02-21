@@ -55,9 +55,6 @@
 .s-hero .social-media ul li a:hover{
     background: rgba(255, 255, 255, 0.192);
 }
-body{
-    background-color: rgb(197, 197, 197);
-}
 
 /* Section Promotion */
 .s-promotion .container{
@@ -71,7 +68,6 @@ body{
     z-index: 500;
     margin-top: -60px;
     box-shadow: 0px 0px 40px rgba(122, 119, 134, 0.1);
-    margin-bottom: 11.5rem;
     padding: 0px !important;
 }
 .s-promotion .container .s-promotion__hours, .s-promotion__event, .s-promotion__donate{
@@ -113,3 +109,4 @@ body{
 .s-promotion__event a p:hover, .s-promotion__donate a p:hover{
     color: var(--grey-600);
 }
+/* Section Animals */

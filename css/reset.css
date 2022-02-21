@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    outline: none; /* don't remove when working with acessibility */
+    outline: none;
     box-sizing: border-box;
     border: none;
     font-family: 'Inter', sans-serif;
@@ -21,7 +21,9 @@ body{
 }
 img{
     max-width: 100%;
-    
+    max-height: 70rem;
+    display: inline-block;
+    overflow: hidden;
 }
 button{
     background-color: transparent;
