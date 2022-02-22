@@ -45,4 +45,9 @@
     border: 1px solid var(--secondary-color);
     padding: 0 5rem;
     color: var(--secondary-color);
+    transition: all 0.3s;
+}
+.btn-secondary-light:hover{
+    background-color: var(--text-light);
+    color: var(--white);
 }

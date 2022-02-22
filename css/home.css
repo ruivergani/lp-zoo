@@ -123,19 +123,14 @@
 }
 .s-animals .container .animals__text h2{
     color: #5C940D;
+    width: 100%;
+    max-width: 27.8rem;
 }
 .s-animals .container .animals__text p{
     /* Grey / 300 */
     color: var(--grey-300);
     padding-top: 2rem;
     padding-bottom: 2.5rem;
-}
-.s-animals .container .animals__text button{
-    transition: all 0.3s;
-}
-.s-animals .container .animals__text button:hover{
-    background-color: var(--text-light);
-    color: var(--white);
 }
 .s-animals .container .animals__figures{
     display: flex;
@@ -199,5 +194,49 @@
     line-height: 120%;
     letter-spacing: -0.5px;
     color: rgba(255, 255, 255, 0.74);
-
+}
+/* === Section About us === */
+.s-about-us{
+    padding: 11.5rem 0px;
+    width: 100%;
+}
+.s-about-us .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.about-us__image img{
+    transition: all 0.3s;
+}
+.about-us__image img:hover{
+    opacity: 0.85;
+}
+.about-us__text{
+    width: 100%;
+    max-width: 48.5rem;
+    text-align: justify;
+}
+.about-us__text h2{
+    color: var(--text-light);
+    padding-bottom: 2rem;
+}
+.about-us__text p{
+    padding-bottom: 2rem;
+    color: var(--grey-300);
+}
+.about-us__text a p{
+    display: flex;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+    color: var(--secondary-color);
+    gap: 10px;
+    transition: all 0.3s;
+}
+.about-us__text a p:hover{
+    color: var(--text-light);
 }
