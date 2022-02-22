@@ -146,4 +146,43 @@ header .container nav ul li a:hover{
     width: 100%;
     max-width: 38.2rem;
     /* The width is the width of the web page */
-  }
+}
+/* === Newsletter === */
+.s-newsletter{
+    width: 100%;
+    padding: 11.5rem 0px;
+    background-color: var(--bg-light);
+}
+.s-newsletter .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.s-newsletter .container h2{
+    color: var(--text-light);
+    padding-bottom: 2rem;
+}
+.s-newsletter .container p{
+    color: var(--text-dark);
+    padding-bottom: 3.5rem;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.input img{
+    cursor: pointer;
+}
+input[type=text] {
+    background-color: white;
+    color: var(--grey-200);
+    padding: 12px 20px;
+    width: 30rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}

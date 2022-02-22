@@ -42,3 +42,6 @@ header .container nav ul li a:hover{
     bottom: 0;
     position: absolute;
 }
+.bgON{
+    background-color: var(--text-dark) !important;
+}
