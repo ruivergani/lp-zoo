@@ -240,3 +240,34 @@
 .about-us__text a p:hover{
     color: var(--text-light);
 }
+
+/* === Section Newsletter === */
+.s-products{
+    background-color: var(--bg-light);
+    padding: 11.5rem 0px;
+    width: 100%;
+}
+.s-products .container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.s-products .container h2{
+    width: 100%;
+    max-width: 28.9rem;
+    color: var(--text-light);
+    padding-bottom: 20px;
+}
+.s-products .container p{
+    color: var(--grey-300);
+    padding-bottom: 2.5rem;
+    max-width: 48.5rem;
+}
+.s-products .container .events img{
+    padding-top: 57px;
+    transition: all 0.3s;
+}
+.s-products .container .events img:hover{
+    opacity: 0.85;
+}
