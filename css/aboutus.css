@@ -1,6 +1,45 @@
 header{
     background-color: var(--text-dark);
+    position: relative;
 }
 header .container nav ul li a:hover{
     color: rgba(255, 255, 255, 0.918);
+}
+.s-hero-2{
+    width: 100%;
+    padding-top: 10rem;
+    background-color: var(--bg-light);
+    height: 50rem;
+}
+.s-hero-2 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.s-hero-2 .container .text{
+    width: 100%;
+    max-width: 46.7rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.s-hero-2 .container .text h1{
+    padding-bottom: 46px;
+    color: var(--text-dark);
+}
+.s-hero-2 .container .text h1 span{
+    /* Heading 01 */
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 6.4rem;
+    line-height: 112%;
+    /* or 72px */
+    /* secondary-color */
+    color: var(--secondary-color);
+}
+.s-hero-2 .container button{
+    margin-top: 13rem;
 }
