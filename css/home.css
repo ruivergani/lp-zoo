@@ -271,3 +271,54 @@
 .s-products .container .events img:hover{
     opacity: 0.85;
 }
+.s-products .container .news{
+    padding-left: 6.5rem;
+    border-left: 1px solid var(--text-light);
+}
+.s-products .container .news__card{
+    margin-top: 25px;
+    background-color: var(--white);
+    max-width: 48.8rem;
+    width: 100%;
+    border-radius: 10px;
+}
+.s-products .container .news__card .card__title{
+    background-color: var(--secondary-color);
+    padding-top: 30px;
+    padding-left: 25px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: all 0.3s;
+}
+.s-products .container .news__card .card__title:hover{
+    background-color: var(--text-light);
+}
+.s-products .container .news__card .card__title p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    /* identical to box height, or 33px */
+    letter-spacing: -0.5px;
+    /* brand/white */
+    color: #FFFFFF;
+}
+.s-products .container .news__card .card__body p{
+    text-align: justify;
+    padding: 25px 20px 0px 25px;
+}
+.s-products .container .news__card .card__body a p{
+    display: flex;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: -0.5px;
+    color: var(--secondary-color);
+    gap: 10px;
+    transition: all 0.3s;
+    padding-bottom: 2.5rem;
+}
+.s-products .container .news__card .card__body a p:hover{
+    color: var(--text-light);
+}
