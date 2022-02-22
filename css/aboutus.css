@@ -82,3 +82,38 @@ header .container nav ul li a:hover{
     color: var(--grey-300);
 }
 /* === Section Map === */
+.s-map{
+    width: 100%;
+    padding: 11.5rem 0px;
+    background-color: var(--bg-light);
+}
+.s-map .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-map .container .map__text{
+    width: 100%;
+    max-width: 48.5rem;
+}
+.s-map .container .map__image img:hover{
+    opacity: 0.85;
+}
+.s-map .container .map__text h2{
+    color: var(--text-light);
+    padding-bottom: 2rem;
+}
+.s-map .container .map__text p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.s-map .container .map__text a p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s;
+    color: var(--text-dark);
+}
+.s-map .container .map__text a p:hover{
+    color: var(--grey-300);
+}
