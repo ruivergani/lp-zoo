@@ -140,7 +140,7 @@ header .container nav ul li a:hover{
     padding-bottom: 15px;
 }
 /* Set the size of the div element that contains the map */
-#map {
+#googleMap {
     height: 262px;
     /* The height is 400 pixels */
     width: 100%;
