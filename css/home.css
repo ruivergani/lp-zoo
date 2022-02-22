@@ -2,10 +2,10 @@
 .s-hero{
     width: 100%;
     height: 77.2rem;
-    background: #060609;
     background: url(../img/hero-bg.jpg) no-repeat center center;
     /* Source image: pexels.com - Author: Jordan (lions.jpg) */
     padding-top: 21.6rem;
+    background-color: #080D10;
 }
 .s-hero .container{
     display: flex;

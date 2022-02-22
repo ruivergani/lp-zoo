@@ -14,7 +14,6 @@ body{
     font-size: 62.5%;
     overflow-x: hidden; /* no scroll barra lateral x eixo */
     scroll-behavior: smooth;
-
     @media screen and (max-width: 991px){
         font-size: 62.5%;
     }
@@ -24,7 +23,6 @@ img{
     max-height: 70rem;
     display: inline-block;
     overflow: hidden;
-
 }
 button{
     background-color: transparent;
