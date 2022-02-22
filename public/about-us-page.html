@@ -117,7 +117,43 @@
         </div>
     </section>
    
-    
+    <!-- Section Times -->
+    <section class="s-address">
+        <div class="container">
+            <div class="time">
+                <h2>Opening Times</h2>
+                <p>During the week</p>
+                <p>&bull;7am to 4pm</p>
+                <br/>
+                <p>Weekends</p>
+                <p>&bull;7am to 8pm</p>
+            </div>
+            <div class="location">
+                <h2>Where to find us</h2>
+                <p>10 Whitlock Drive, Liverpool</p>
+                <p>SW196SN</p>
+            </div>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          const uluru = { lat: -25.344, lng: 131.036 };
+          // The map, centered at Uluru
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: uluru,
+          });
+          // The marker, positioned at Uluru
+          const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+          });
+        }
+      </script>   
  
 
     <!-- Footer -->
@@ -151,8 +187,11 @@
         </div>
     </footer>
 
-    <!-- AOS Animate Script -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
     <!-- Jquery / Main.js -->
     <script language="JavaScript" type="text/javascript" src="./js/main.js"></script>
 </body>
