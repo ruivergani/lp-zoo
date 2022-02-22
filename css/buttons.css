@@ -1,8 +1,7 @@
-.btn-primary, .btn-secondary, .btn-light, .btn-secondary-light{
+.btn-primary, .btn-secondary, .btn-light, .btn-secondary-light, .btn-sucess{
     display: inline-block;
     border-radius: 12rem;
     transition: all 0.3s;
-   
 }
 .btn-primary, .btn-secondary{
     background-color: var(--primary-color);
@@ -50,4 +49,20 @@
 .btn-secondary-light:hover{
     background-color: var(--text-light);
     color: var(--white);
+}
+.btn-sucess{
+    line-height: 5.2rem;
+    padding: 0 5rem;
+    background-color: var(--secondary-color);
+    transition: all 0.3s;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-sucess img{
+    padding-left: 10px;
+}
+.btn-sucess:hover{
+    background-color: var(--text-dark);
 }
