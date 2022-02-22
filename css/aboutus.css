@@ -1,12 +1,14 @@
+@import url(main.css);
+
 header{
     background-color: var(--text-dark);
-    position: relative;
 }
 header .container nav ul li a:hover{
     color: rgba(255, 255, 255, 0.918);
 }
 .s-hero-2{
     width: 100%;
+    margin-top: 8rem;
     padding-top: 10rem;
     background-color: var(--bg-light);
     height: 50rem;
@@ -43,3 +45,40 @@ header .container nav ul li a:hover{
 .s-hero-2 .container button{
     margin-top: 13rem;
 }
+/* === Section Our Values === */
+.s-values{
+    width: 100%;
+    padding: 11.5rem 0px;
+}
+.s-values .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-values .container .values__image img:hover{
+    opacity: 0.85;
+}
+.s-values .container .values__text{
+    width: 100%;
+    max-width: 48.5rem;
+}
+.s-values .container .values__text h2{
+    padding-bottom: 2rem;
+    color: var(--text-light);
+}
+.s-values .container .values__text p{
+    color: #7A7786;
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+.s-values .container .values__text a p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s;
+    color: var(--text-dark);
+}
+.s-values .container .values__text a p:hover{
+    color: var(--grey-300);
+}
+/* === Section Map === */
