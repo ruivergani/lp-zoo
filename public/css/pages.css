@@ -217,7 +217,7 @@ input[type=text] {
     align-items: center;
     gap: 1rem;
     transition: all 0.3s;
-    color: var(--text-dark);
+    color: var(--text-light);
 }
 .s-week-animal .container .animals a p:hover{
     color: var(--grey-300);
@@ -347,4 +347,80 @@ input[type=text] {
 }
 .s-hero-4 .container button{
     margin-top: 10rem;
+}
+.s-help{
+    width: 100%;
+    padding: 11.5rem 0px;
+}
+.s-help .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-help .container .animals__text{
+    max-width: 48.5rem;
+}
+.s-help .container .animals__text h2{
+    color: var(--text-light);
+    font-family: 'Rammetto One', sans-serif;
+    padding-bottom: 2rem;
+
+}
+.s-help .container .animals__text p{
+    padding-bottom: 2rem;
+    text-align: justify;
+    color: var(--grey-300);
+}
+.s-help .container .animals__text a p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s;
+    color: var(--text-light);
+}
+.s-help .container .animals a p:hover{
+    color: var(--grey-300);
+}
+article.pictures-help{
+    width: 100%;
+    padding: 11.5rem 0px;
+    background-color: var(--bg-light);
+}
+article.pictures-help .container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+.help__top{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.help__top .animals-help__text{
+    max-width: 48.5rem;
+}
+.help__top .animals-help__text h2{
+    padding-bottom: 30px;
+    color: var(--text-light);
+    font-family: 'Rammetto One', sans-serif;
+}
+
+article.pictures-help .pics{
+    display: flex;
+    gap: 3.2rem;
+    flex-wrap: wrap;
+}
+article.pictures-help .pics img:hover{
+    opacity: 0.85;
+}
+p{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 150%;
+    /* Grey / 300 */
+    color: #7A7786;
 }
