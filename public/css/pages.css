@@ -188,3 +188,64 @@ input[type=text] {
     float: right;
 }
 /* ======= Animals Pages ====== */
+.s-week-animal{
+    width: 100%;
+    padding: 11.5rem 0px;
+}
+.s-week-animal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-week-animal .container img:hover{
+    opacity: 0.85;
+}
+.s-week-animal .container .animals__text{
+    width: 100%;
+    max-width: 48.5rem;
+}
+.s-week-animal .container .animals__text h2{
+    color: var(--text-light);
+    padding-bottom: 2rem;
+}
+.s-week-animal .container .animals__text p{
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+.s-week-animal .container .animals__text a p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s;
+    color: var(--text-dark);
+}
+.s-week-animal .container .animals a p:hover{
+    color: var(--grey-300);
+}
+.s-pictures{
+    width: 100%;
+    padding: 11.5rem 0px;
+    background-color: var(--bg-light);
+}
+.s-pictures .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.s-pictures .container h2{
+    color: var(--text-light);
+    padding-bottom: 2rem;
+}
+.s-pictures .container p{
+    max-width: 48.5rem;
+    padding-bottom: 8rem;
+}
+.s-pictures .container .pics{
+    display: flex;
+    gap: 3.2rem;
+    flex-wrap: wrap;
+}
+.s-pictures .container .pics img:hover{
+    opacity: 0.85;
+}
