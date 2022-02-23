@@ -44,7 +44,7 @@ header .container nav ul li a:hover{
     color: var(--secondary-color);
 }
 .s-hero-2 .container button{
-    margin-top: 13rem;
+    margin-top: 8rem;
 }
 /* === Section Our Values === */
 .s-values{
@@ -423,4 +423,159 @@ p{
     line-height: 150%;
     /* Grey / 300 */
     color: #7A7786;
+}
+/* ===== DONATION PAGES ==== */
+.s-prices{
+    width: 100%;
+    padding: 11.5rem 0px;
+}
+.s-prices .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.s-prices .container .prices__text{
+    max-width: 48.5rem;
+}
+.s-prices .container .prices__text h2{
+    color: var(--text-light);
+    max-width: 31.2rem;
+    padding-bottom: 2rem;
+}
+.s-prices .container .prices__text a p{
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s;
+    color: var(--text-light);
+    padding-bottom: 2rem;
+}
+.s-prices .container .prices__text a p:hover{
+    color: var(--text-dark);
+}
+.s-prices .container .prices__text p{
+    text-align: justify;
+}
+.s-prices .container .prices__text a p.discount{
+    color: var(--text-dark);
+    padding-top: 3rem;
+}
+table{
+    padding: 0;
+    margin: 0;
+    border-radius: 1rem;
+    border-spacing: 0px;
+    border: 1px solid var(--text-dark);
+    max-width: 59.2rem;
+    min-width: 40rem;
+}
+th{
+    background-color: var(--bg-light);
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    letter-spacing: -0.5px;
+    /* text-light */
+    color: #5C940D;
+}
+td {
+    border: 1px solid var(--text-light);
+    /* D. Paragraph/Text-18 */
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    /* text-dark-color */
+    color: #183C0A;
+}
+.money{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    /* text-dark-color */
+    color: #183C0A;
+
+}
+th, td{
+    padding: 1.5rem;
+}
+
+
+.s-donation{
+    width: 100%;
+    background-color: var(--bg-light);
+    padding: 11.5rem 0px;
+}
+.s-donation .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s-donation .container .donation__text{
+    width: 48.5rem;
+}
+.s-donation .container .donation__text h2{
+    color: var(--text-light);
+    padding-bottom: 2rem;
+}
+.s-donation .container .donation__text p{
+    padding-bottom: 2rem;
+}
+.s-donation .container .donation__text a p{
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s;
+    color: var(--text-light);
+    padding-bottom: 2rem;
+}
+.s-tickets{
+    width: 100%;
+    padding: 11.5rem 0px;
+}
+.s-tickets .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-tickets .container .tickets__pics{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.s-tickets .container .tickets__pics .pics__top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+.s-tickets .container .tickets__text{
+    width: 48.5rem;
+}
+.s-tickets .container .tickets__text h2{
+    color: var(--text-light);
+    padding-bottom: 2rem;
+}
+.s-tickets .container .tickets__text p{
+    padding-bottom: 2rem;
+}
+.s-tickets .container .tickets__text a p{
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s;
+    color: var(--text-light);
+    padding-bottom: 2rem;
 }
