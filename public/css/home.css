@@ -111,38 +111,38 @@
 }
 
 /* === Section Animals === */
-.s-animals .container{
+#s-animals .container{ /* using ID selector */
     padding: 11.5rem 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.s-animals .container .animals__text{
+#s-animals .container .animals__text{
     width: 100%;
     max-width: 48.5rem;
 }
-.s-animals .container .animals__text h2{
+#s-animals .container .animals__text h2{
     color: #5C940D;
     width: 100%;
     max-width: 27.8rem;
 }
-.s-animals .container .animals__text p{
+#s-animals .container .animals__text p{
     /* Grey / 300 */
     color: var(--grey-300);
     padding-top: 2rem;
     padding-bottom: 2.5rem;
 }
-.s-animals .container .animals__figures{
+#s-animals .container .animals__figures{
     display: flex;
     gap: 1.5rem;
 }
-.s-animals .container .animals__figures img {
+#s-animals .container .animals__figures img {
     transition: all 0.3s;
 }
-.s-animals .container .animals__figures img:hover{
+#s-animals .container .animals__figures img:hover{
     opacity: 0.85;
 }
-.s-animals .container .animals__figures .figures__square{
+#s-animals .container .animals__figures .figures__square{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;

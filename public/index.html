@@ -79,7 +79,7 @@
                 <h3>We are open and ready for your visit. A really great day out that makes a real difference.</h3>
                 <div class="main-text__buttons">
                     <a href="donation-page.html"><button class="btn-primary">Make your Donation</button></a>
-                    <a href="about-us-page.html"><button class="btn-secondary">Read More</button></a>
+                    <a href="#s-animals"><button class="btn-secondary">Read More</button></a>
                 </div>
             </div>
             <div class="social-media">
@@ -153,7 +153,7 @@
     </section>
 
     <!-- Section Animals -->
-    <section class="s-animals">
+    <section class="s-animals" id="s-animals">
         <div class="container">
             <div class="animals__text">
                 <h2>Animals and Tours</h2>
@@ -267,8 +267,21 @@
         </div>
     </footer>
 
-    <!-- AOS Animate Script -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        //check whether browser support service workers
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+            navigator.serviceWorker.register('serviceworker.js').then(
+           function(registration) {
+           console.log('Service worker registration successful',registration);
+           }, 
+          function(err) {
+           console.log('Service worker registration failed', err);
+                });
+            });
+        }
+    </script>
+        
     <!-- Jquery / Main.js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="./js/main.js"></script>

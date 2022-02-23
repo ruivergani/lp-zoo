@@ -52,7 +52,7 @@
     <header>
         <div class="container">
             <a href="index.html" class="logo" id="logo">
-                <img src="./img/logo.svg" alt="Logo Wilson Zoo, designed by Rui Neto.">
+                <img src="./img/logo/logo.svg" alt="Logo Wilson Zoo, designed by Rui Neto.">
             </a>
             <nav id="main-nav">
                 <ul>
@@ -79,17 +79,16 @@
                 <h1>UNDER <span>CONSTRUCTION</span></h1>
                 <p>This page is still under development, the team is working as soon as possible to finish the product. Click on the button below to get back on your track.</p>
             </div>
-            <button onclick="history.back()" class="btn-sucess">Go back <img src="./img/back_icon.svg" alt=""></button>
+            <button onclick="history.back()" class="btn-sucess">Go back <img src="./img/icons/back_icon.svg" alt=""></button>
         </div>
     </section>
 
     
-  
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer__top">
-                <a href="#top"><img src="./img/logo-dark.svg" alt="Logo in dark color - Wilson Zoo"></a>
+                <a href="#top"><img src="./img/logo/logo-dark.svg" alt="Logo in dark color - Wilson Zoo"></a>
                 <div>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -116,8 +115,20 @@
         </div>
     </footer>
 
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1IbwSwTfNB8c0uWH9pbIyr7bta3iDmZI&callback=myMap"></script>
+    <script>
+        //check whether browser support service workers
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+            navigator.serviceWorker.register('serviceworker.js').then(
+           function(registration) {
+           console.log('Service worker registration successful',registration);
+           }, 
+          function(err) {
+           console.log('Service worker registration failed', err);
+                });
+            });
+        }
+    </script>
     <!-- Jquery / Main.js -->
     <script language="JavaScript" type="text/javascript" src="./js/main.js"></script>
 </body>

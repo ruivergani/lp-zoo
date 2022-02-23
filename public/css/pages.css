@@ -254,7 +254,7 @@ input[type=text] {
     width: 100%;
     margin-top: 8rem;
     padding-top: 10rem;
-    background:url(../img/bg-404.png) center no-repeat;
+    background:url(../img/bg/bg-404.png) center no-repeat;
     padding-bottom: 60px;
 }
 .s-hero-3 .container{

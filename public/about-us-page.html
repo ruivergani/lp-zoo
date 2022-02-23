@@ -183,7 +183,7 @@
             </div>
         </div>
     </footer>
-
+    <!-- Google Map script-->
     <script>
         function myMap() {
         var mapProp= {
@@ -192,7 +192,21 @@
         };
         var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
         }
-        </script>
+    </script>
+    <script>
+        //check whether browser support service workers
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+            navigator.serviceWorker.register('serviceworker.js').then(
+           function(registration) {
+           console.log('Service worker registration successful',registration);
+           }, 
+          function(err) {
+           console.log('Service worker registration failed', err);
+                });
+            });
+        }
+    </script>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1IbwSwTfNB8c0uWH9pbIyr7bta3iDmZI&callback=myMap"></script>
     <!-- Jquery / Main.js -->
