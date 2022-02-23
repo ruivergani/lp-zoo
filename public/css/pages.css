@@ -293,12 +293,11 @@ input[type=text] {
     margin-top: 7rem;
 }
 /* === KIDS PAGE CSS === */
-
 .s-hero-4{
     width: 100%;
     margin-top: 8rem;
     padding-top: 10rem;
-    background-color: var(--bg-light);
+    background: url(../img/bg/bg-kids.png) no-repeat center center;
     height: 50rem;
 }
 .s-hero-4 .container{
@@ -306,6 +305,13 @@ input[type=text] {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+}
+.s-hero-4 .container img#boy{
+    max-width: 20.3rem;
+    position: absolute;
+    right: 0; /* image boy position */
+    bottom: 11.5rem;
 }
 .s-hero-4 .container .text{
     width: 100%;
@@ -340,5 +346,5 @@ input[type=text] {
     color: var(--secondary-color);
 }
 .s-hero-4 .container button{
-    margin-top: 13rem;
+    margin-top: 10rem;
 }
