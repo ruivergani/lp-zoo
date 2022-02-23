@@ -520,6 +520,9 @@ th, td{
     justify-content: space-between;
     align-items: center;
 }
+.s-donation .container img:hover{
+    opacity: 0.85;
+}
 .s-donation .container .donation__text{
     width: 48.5rem;
 }
@@ -547,6 +550,9 @@ th, td{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.s-tickets .container img:hover{
+    opacity: 0.85;
 }
 .s-tickets .container .tickets__pics{
     display: flex;
