@@ -292,3 +292,53 @@ input[type=text] {
 .s-hero-3 .container button{
     margin-top: 7rem;
 }
+/* === KIDS PAGE CSS === */
+
+.s-hero-4{
+    width: 100%;
+    margin-top: 8rem;
+    padding-top: 10rem;
+    background-color: var(--bg-light);
+    height: 50rem;
+}
+.s-hero-4 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.s-hero-4 .container .text{
+    width: 100%;
+    max-width: 62.4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.s-hero-4 .container .text h1{
+    padding-bottom: 46px;
+    color: var(--text-dark);
+    /* Heading 01 */
+    font-family: 'Rammetto One', sans-serif;
+    font-size: 6.4rem;
+    line-height: 112%;
+    /* or 74px */
+    /* secondary-color */
+}
+.s-hero-4 .container .text p{
+    max-width: 46.7rem;
+}
+.s-hero-4 .container .text h1 span{
+    /* Heading 01 */
+    font-family: 'Rammetto One', sans-serif;
+    font-size: 6.4rem;
+    line-height: 112%;
+    /* or 74px */
+    /* secondary-color */
+    color: var(--secondary-color);
+}
+.s-hero-4 .container button{
+    margin-top: 13rem;
+}
