@@ -393,7 +393,6 @@ img#rainbow{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
 }
 .s-hero-4 .container .text h1{
     padding-bottom: 46px;
@@ -495,6 +494,34 @@ p{
     line-height: 150%;
     /* Grey / 300 */
     color: #7A7786;
+}
+@media (max-width: 991px){
+    .s-hero-4{
+        margin-top: 5rem;
+        height: 70rem;
+    }
+    .s-hero-4 .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .s-hero-4 .container .text h1{
+        font-size: 4rem;
+    }
+    img#rainbow{
+        display: none;
+    }
+    .s-hero-4 .container img#boy{
+        position: relative;
+        right: 0px; /* image boy position */
+        bottom: 0px;
+        max-width: 13.5rem;
+    }
+    .s-hero-4 .container button {
+        margin-top: 0rem;
+    }
 }
 /* ===== DONATION PAGES ==== */
 .s-prices{
@@ -671,7 +698,13 @@ th, td{
         font-size: 1.8rem;
     }
     span{
-        font-size: 5rem !important;
+        font-size: 4.7rem !important;
+    }
+    .s-hero-3{
+        margin-top: 5rem;
+    }
+    .s-hero-3 span{
+        font-size: 3.5rem !important;
     }
 }
 @media only screen and (max-width: 991px) and (min-width: 480px)  {
@@ -682,6 +715,7 @@ th, td{
         font-size: 2.3rem;
     }
     span{
-        font-size: 5rem !important;
+        font-size: 4.7rem !important;
     }
+    
 }
