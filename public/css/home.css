@@ -162,7 +162,7 @@
 }
 /* === Section Animals === */
 #s-animals .container{ /* using ID selector */
-    padding: 11.5rem 0px;
+    padding: 11.5rem 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -196,6 +196,22 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+}
+/* === Responsive ==== */
+@media (max-width: 991px){
+    #s-animals .container{ /* using ID selector */
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+    #s-animals .container .animals__text h2 {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 600px)  {
+    
 }
 /* === Section Phrase === */
 .s-phrase{
