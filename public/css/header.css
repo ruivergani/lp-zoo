@@ -61,10 +61,10 @@ header .container nav ul li a:hover{
         }
     }
     @media (max-width: 991px){
-        .container .logo{
+        header .container .logo{
             max-width: 10.8rem;
         }
-        .container nav {
+        header .container nav {
             position: fixed;
             right: -800px; 
             height: 100vh;
@@ -75,32 +75,37 @@ header .container nav ul li a:hover{
             box-shadow: -5px 5px 10px rgba(0,0,0, 0.1);
             top: 0; 
             flex-direction: column;
+            background-color: var(--text-dark);
         }
-        .container nav ul {
+        header .container nav ul {
             transition: all .6s linear;
             flex-direction: column;
             justify-content: space-evenly;
             margin-right: 0;
-            height: 55%;
+            height: 40%;
+            gap: 1.5rem;
         }
-        .container nav ul li:not(:first-child) {
+        header .container nav ul li:not(:first-child) {
              margin-left: 0;
         }
-        .container nav ul li{
+        header .container nav ul li{
             margin: 0;
             text-align: center;
         }
-        .container nav ul li a{
+        header .container nav ul li a{
             font-size: 2rem;
         }
-        .container nav .btn-mobile.close{
+        header .container nav .btn-mobile.close{
             display: block;
             height: 10%;
             max-height: 8.8rem;
             align-self: flex-end;
             padding: 20px;
         }
-        .container .btn-mobile{
+        header .container nav.active{
+            right: 0;
+        }
+        header .container .btn-mobile{
             display: inline-block;
             margin-left: 4rem;
         }
