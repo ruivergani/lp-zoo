@@ -8,3 +8,14 @@ $(window).on("scroll", function() {
        $("#m-header").removeClass("bgON");
     }
   });
+
+// Menu Mobile
+
+const btn_mobile = document.querySelectorAll('.btn-mobile');
+const nav = document.querySelector('#main-nav')
+
+btn_mobile.forEach(btn => {
+    btn.addEventListener('click', function() {
+        nav.classList.toggle('active')
+    })
+})

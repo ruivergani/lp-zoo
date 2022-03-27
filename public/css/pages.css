@@ -297,8 +297,8 @@ input[type=text] {
     width: 100%;
     margin-top: 8rem;
     padding-top: 10rem;
-    background: url(../img/bg/bg-kids.png) no-repeat center center;
     height: 50rem;
+    background-color: var(--bg-light);
 }
 .s-hero-4 .container{
     display: flex;
@@ -306,6 +306,11 @@ input[type=text] {
     justify-content: center;
     flex-direction: column;
     position: relative;
+}
+img#rainbow{
+    left: 0px;
+    top: 36rem;
+    position: absolute;
 }
 .s-hero-4 .container img#boy{
     max-width: 20.3rem;

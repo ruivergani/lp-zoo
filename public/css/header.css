@@ -45,3 +45,83 @@ header .container nav ul li a:hover{
 .bgON{
     background-color: var(--text-dark) !important;
 }
+/* ==== Mobile Menu ==== */
+.btn-mobile{
+    display: none;
+}
+.btn-mobile-close {
+    display: none;
+}
+/* === Responsive === */
+
+    @media (max-width: 1086px){
+        .container nav ul{
+            gap: 2rem;
+            margin-right: 2rem;
+        }
+    }
+    @media (max-width: 991px){
+        .container .logo{
+            max-width: 10.8rem;
+        }
+        .container nav {
+            position: fixed;
+            right: -800px; 
+            height: 100vh;
+            transition: all .6s linear;
+            width: 65%; 
+            max-width: 35rem;
+            z-index: 10000; 
+            box-shadow: -5px 5px 10px rgba(0,0,0, 0.1);
+            top: 0; 
+            flex-direction: column;
+        }
+        .container nav ul {
+            transition: all .6s linear;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-right: 0;
+            height: 55%;
+        }
+        .container nav ul li:not(:first-child) {
+             margin-left: 0;
+        }
+        .container nav ul li{
+            margin: 0;
+            text-align: center;
+        }
+        .container nav ul li a{
+            font-size: 2rem;
+        }
+        .container nav .btn-mobile.close{
+            display: block;
+            height: 10%;
+            max-height: 8.8rem;
+            align-self: flex-end;
+            padding: 20px;
+        }
+        .container .btn-mobile{
+            display: inline-block;
+            margin-left: 4rem;
+        }
+                      
+    }
+    @media (max-width: 480px){
+        header{
+            height: 7.3rem;
+        }
+        .container nav .btn-mobile{
+            height: 7.1rem;
+        }
+        .container nav .btn-mobile img{
+            max-width: 80%;
+        }
+    }
+    @media (max-width: 340px) {
+        nav .btn-mobile{
+            height: 7.3rem;
+        }
+        nav .btn-mobile ul li {
+            font-size: 1.8rem;
+        }
+    }
