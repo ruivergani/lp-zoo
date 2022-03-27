@@ -92,6 +92,7 @@ header .container nav ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
 .s-map .container .map__text{
     width: 100%;
@@ -289,6 +290,31 @@ input[type=text] {
 }
 .s-pictures .container .pics img:hover{
     opacity: 0.85;
+}
+@media (max-width: 991px){
+    .s-week-animal, .s-pictures{
+        padding: 8rem 0px;
+    }
+    .s-week-animal .container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .s-week-animal .container .animals__text a p {
+        justify-content: center;
+        font-size: 2rem;
+    }
+    .s-pictures .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .s-pictures .container .pics {
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
 /* ==== PROTOTYPE PAGE ==== */
 .s-hero-3{

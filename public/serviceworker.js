@@ -4,7 +4,7 @@ const CACHE_NAME = 'my-site-v1';
 // add all your files in the CACHE_URLS
 const CACHE_URLS = ['/', 'index.html',
   'manifest.json',
-  'styles.css',
+  'main.css',
   '404.html',
   'images/android-chrome-512x512.png'
   // add all your files in here, in the correct folders. No need to add this file
