@@ -187,6 +187,47 @@ input[type=text] {
     cursor: pointer;
     float: right;
 }
+@media (max-width: 991px){
+    .s-hero-2{
+        margin-top: 6rem;
+        padding-top: 8rem;
+    }
+    .s-hero-2 .container button {
+        margin-top: 4rem;
+    }
+    .s-values, .s-map, .s-address, .s-newsletter{
+        padding: 8rem 0px;
+    }
+    .s-values .container{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .s-values .container .values__text p, .s-map .container .map__text p{
+        text-align: center;
+    }
+    .s-values .container .values__text a p, .s-map .container .map__text a p{
+        justify-content: center;
+        font-size: 2rem;
+    }
+    .s-map .container{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .s-address .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 3rem;
+    }
+}
+
 /* ======= Animals Pages ====== */
 .s-week-animal{
     width: 100%;
@@ -589,4 +630,32 @@ th, td{
     transition: all 0.3s;
     color: var(--text-light);
     padding-bottom: 2rem;
+}
+@media (max-width: 480px){
+    h1{
+        font-size: 3.8rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+    span{
+        font-size: 5rem !important;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 480px)  {
+    h1{
+        font-size: 4.5rem;
+    }
+    h3{
+        font-size: 2.3rem;
+    }
+    span{
+        font-size: 5rem !important;
+    }
 }
