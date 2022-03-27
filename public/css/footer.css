@@ -73,3 +73,30 @@ footer .container .name p{
     line-height: 150%;
     color: var(--grey-200);
 }
+/* === Responsive ==== */
+@media (max-width: 991px){
+    footer .container .footer__top {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    footer .container .footer__top ul {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .container .footer__bottom{
+        padding: 3rem 0px;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .right{
+        text-align: center;
+    }
+    .left{
+        text-align: center;
+    }
+}
