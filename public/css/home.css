@@ -55,6 +55,40 @@
 .s-hero .social-media ul li a:hover{
     background: rgba(255, 255, 255, 0.192);
 }
+/* === Responsive ==== */
+@media (max-width: 480px){
+
+}
+@media (max-width: 991px){
+    .s-hero{
+        padding-top: 15rem;
+        background: url(../img/icons/mobile-bg.jpg) no-repeat center center;
+    }
+    .s-hero .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+    .s-hero .container .main-text h1,h3 {
+        text-align: center;
+    }
+    .s-hero .container .main-text__buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .s-hero .social-media ul {
+        flex-direction: row;
+
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 480px)  {
+    .s-hero{
+        padding-top: 18rem;
+    }
+}
 
 /* === Section Promotion === */
 .s-promotion .container{
