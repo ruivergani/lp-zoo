@@ -321,7 +321,8 @@ input[type=text] {
     width: 100%;
     margin-top: 8rem;
     padding-top: 10rem;
-    background:url(../img/bg/bg-404.png) center no-repeat;
+    background: url(../img/icons/stars.png) no-repeat center center;
+    background-color: var(--bg-light);
     padding-bottom: 60px;
 }
 .s-hero-3 .container{
@@ -673,6 +674,7 @@ th, td{
     padding: 11.5rem 0px;
 }
 .s-tickets .container{
+    gap: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
