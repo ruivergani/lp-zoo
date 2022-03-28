@@ -522,6 +522,33 @@ p{
     .s-hero-4 .container button {
         margin-top: 0rem;
     }
+    .s-help{
+        padding: 8rem 0rem;
+        text-align: center;
+    }
+    .s-help .container{
+        flex-direction: column-reverse;
+    }
+    .s-help .container .animals__text a p {
+        justify-content: center;
+    }
+    article.pictures-help {
+        padding: 8rem 0rem;
+    }
+    article.pictures-help .container{
+        gap: 6rem;
+    }
+    .help__top {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .pics{
+        align-items: center;
+        justify-content: center;
+    }
 }
 /* ===== DONATION PAGES ==== */
 .s-prices{
