@@ -635,7 +635,6 @@ th, td{
     padding: 1.5rem;
 }
 
-
 .s-donation{
     width: 100%;
     background-color: var(--bg-light);
@@ -650,7 +649,8 @@ th, td{
     opacity: 0.85;
 }
 .s-donation .container .donation__text{
-    width: 48.5rem;
+    width: 100%;
+    max-width: 48.5rem;
 }
 .s-donation .container .donation__text h2{
     color: var(--text-light);
@@ -693,7 +693,8 @@ th, td{
     gap: 1.5rem;
 }
 .s-tickets .container .tickets__text{
-    width: 48.5rem;
+    width: 100%;
+    max-width: 48.5rem;
 }
 .s-tickets .container .tickets__text h2{
     color: var(--text-light);
@@ -710,6 +711,50 @@ th, td{
     transition: all 0.3s;
     color: var(--text-light);
     padding-bottom: 2rem;
+}
+@media (max-width: 991px){
+    .s-prices{
+        padding: 8rem 0px;
+    }
+    .s-prices .container{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .s-prices .container .prices__text h2 {
+        max-width: 100%;
+    }
+    .s-prices .container .prices__text a p {
+        align-items: center;
+        justify-content: center;
+    }
+    th, td {
+        padding: 1rem;
+        font-size: 1.8rem;
+        max-width: 50px;
+    }
+    table{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .s-donation {
+        max-width: 100%;
+        padding: 8rem 0px;
+    }
+    .s-donation .container{
+        flex-direction: column;
+    }
+    .s-tickets{
+        padding: 8rem 0px;
+    }
+    .s-tickets .container{
+        flex-direction: column;
+    }
+    .s-tickets .container .tickets__pics .pics__top {
+        flex-direction: column;
+    }
 }
 @media (max-width: 480px){
     h1{
