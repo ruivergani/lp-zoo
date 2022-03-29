@@ -522,14 +522,6 @@ article.pictures-help .pics img:hover{
     opacity: 0.85;
     transform: scale(1.05);
 }
-p{
-    font-family: 'Mulish', sans-serif;
-    font-style: normal;
-    font-size: 22px;
-    line-height: 150%;
-    /* Grey / 300 */
-    color: #7A7786;
-}
 @media (max-width: 991px){
     .s-hero-4{
         margin-top: 5rem;
