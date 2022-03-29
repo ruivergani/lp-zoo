@@ -59,7 +59,7 @@ p{
     font-family: 'Inter', sans-serif;
     font-size: 1.8rem;
     line-height: 150%;
-    color: var(--grey-400);
+    color: var(--grey-600);
 }
 @media (max-width: 480px){
     h1{
