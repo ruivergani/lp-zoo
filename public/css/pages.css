@@ -43,9 +43,7 @@ header .container nav ul li a:hover{
     /* secondary-color */
     color: var(--secondary-color);
 }
-.s-hero-2 .container a#s-values{
-    margin-top: 8rem;
-}
+
 /* === Section Our Values === */
 .s-values{
     width: 100%;
@@ -361,9 +359,6 @@ input[type=text] {
     /* secondary-color */
     color: var(--secondary-color);
 }
-.s-hero-3 .container a#backbutton{
-    margin-top: 7rem;
-}
 /* === KIDS PAGE CSS === */
 .s-hero-4{
     width: 100%;
@@ -446,9 +441,6 @@ img#rainbow{
     /* or 74px */
     /* secondary-color */
     color: var(--secondary-color);
-}
-.s-hero-4 .container a#s-help{
-    margin-top: 10rem;
 }
 .s-help{
     width: 100%;

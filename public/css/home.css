@@ -359,6 +359,9 @@
     display: flex;
     flex-direction: column;
 }
+.s-products .container .events a.btn-secondary-light{
+    max-width: 25rem;
+}
 .s-products .container .events img{
     padding-top: 57px;
     transition: all 0.3s;
