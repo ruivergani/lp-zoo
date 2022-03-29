@@ -43,7 +43,7 @@ header .container nav ul li a:hover{
     /* secondary-color */
     color: var(--secondary-color);
 }
-.s-hero-2 .container button{
+.s-hero-2 .container a#s-values{
     margin-top: 8rem;
 }
 /* === Section Our Values === */
@@ -193,7 +193,7 @@ input[type=text] {
         margin-top: 6rem;
         padding-top: 8rem;
     }
-    .s-hero-2 .container button {
+    .s-hero-2 .container a#s-values {
         margin-top: 4rem;
     }
     .s-values, .s-map, .s-address, .s-newsletter{
@@ -361,7 +361,7 @@ input[type=text] {
     /* secondary-color */
     color: var(--secondary-color);
 }
-.s-hero-3 .container button{
+.s-hero-3 .container a#backbutton{
     margin-top: 7rem;
 }
 /* === KIDS PAGE CSS === */
@@ -447,7 +447,7 @@ img#rainbow{
     /* secondary-color */
     color: var(--secondary-color);
 }
-.s-hero-4 .container button{
+.s-hero-4 .container a#s-help{
     margin-top: 10rem;
 }
 .s-help{
