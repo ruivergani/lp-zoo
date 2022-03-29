@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/fontface/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype'),
+         url('../fonts/fontface/Inter/static/Inter-Black.ttf') format('truetype'),
+         url('../fonts/fontface/Inter/static/Inter-Bold.ttf') format('truetype'),
+         url('../fonts/fontface/Inter/static/Inter-ExtraBold.ttf') format('truetype'),
+         url('../fonts/fontface/Inter/static/Inter-ExtraLight.ttf') format('truetype'),
+         url('../fonts/fontface/Inter/static/Inter-Medium.ttf') format('truetype'),
+         url('../fonts/fontface/Inter/static/Inter-Regular.ttf') format('truetype'),
+         url('../fonts/fontface/Inter/static/Inter-SemiBold.ttf') format('truetype'),
+         url('../fonts/fontface/Inter/static/Inter-Thin.ttf') format('truetype');
+    font-display: fallback;
+}
+
 h1,h2,h3,h4,h5{
     font-family: 'Mulish', sans-serif;
 }

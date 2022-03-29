@@ -3,13 +3,13 @@
     "short_name": "Wilson Zoo app",
      "icons": [
         {
-            "src": "./img/icons/active-2.svg",
+            "src": "./img/logo/logo.svg",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "images/android-chrome-512x512.png",
+            "src": "",
             "sizes": "512x512",
             "type": "image/png"
         }
