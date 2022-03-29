@@ -191,6 +191,7 @@
 }
 #s-animals .container .animals__figures img:hover{
     opacity: 0.85;
+    transform: scale(1.05);
 }
 #s-animals .container .animals__figures .figures__square{
     display: flex;
