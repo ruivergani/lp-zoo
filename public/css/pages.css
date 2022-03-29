@@ -288,8 +288,12 @@ input[type=text] {
     gap: 3.2rem;
     flex-wrap: wrap;
 }
+.s-pictures .container .pics img{
+    transition: all 0.3s;
+}
 .s-pictures .container .pics img:hover{
     opacity: 0.85;
+    transform: scale(1.05);
 }
 @media (max-width: 991px){
     .s-week-animal, .s-pictures{
@@ -375,16 +379,41 @@ input[type=text] {
     flex-direction: column;
     position: relative;
 }
+@keyframes floating{
+    0%{
+        transform: translateY(0);
+    }
+    66%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes floating-side{
+    0%{
+        transform: translateX(0);
+    }
+    66%{
+        transform: translateX(-35px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
 img#rainbow{
     left: 0px;
     top: 36rem;
     position: absolute;
+    animation: floating-side 3s infinite;
 }
+
 .s-hero-4 .container img#boy{
     max-width: 20.3rem;
     position: absolute;
     right: 0; /* image boy position */
     bottom: 11.5rem;
+    animation: floating 6s infinite; /* keyframe animation */
 }
 .s-hero-4 .container .text{
     width: 100%;
@@ -485,8 +514,12 @@ article.pictures-help .pics{
     gap: 3.2rem;
     flex-wrap: wrap;
 }
+article.pictures-help .pics img{
+    transition: all 0.3s;
+}
 article.pictures-help .pics img:hover{
     opacity: 0.85;
+    transform: scale(1.05);
 }
 p{
     font-family: 'Mulish', sans-serif;
