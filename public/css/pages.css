@@ -509,7 +509,6 @@ article.pictures-help .container{
     color: var(--text-light);
     font-family: 'Rammetto One', sans-serif;
 }
-
 article.pictures-help .pics{
     display: flex;
     gap: 3.2rem;
