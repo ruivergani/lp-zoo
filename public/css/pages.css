@@ -406,6 +406,7 @@ img#rainbow{
     top: 36rem;
     position: absolute;
     animation: floating-side 3s infinite;
+    animation-iteration-count: 3; /* stop the animation after 3 times */
 }
 
 .s-hero-4 .container img#boy{

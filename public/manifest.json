@@ -1,0 +1,22 @@
+{
+    "name": "Wilson Zoo",
+    "short_name": "Wilson Zoo app",
+     "icons": [
+        {
+            "src": "./img/icons/active-2.svg",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#7BCC00",
+    "description": "Wilson Zoo landing page for Zoo, developed as college assignment.",
+    "background_color": "#ffffff",
+    "lang": "en",
+    "display": "standalone"
+}
