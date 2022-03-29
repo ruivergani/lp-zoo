@@ -355,6 +355,10 @@
     padding-bottom: 2.5rem;
     max-width: 48.5rem;
 }
+.s-products .container .events{
+    display: flex;
+    flex-direction: column;
+}
 .s-products .container .events img{
     padding-top: 57px;
     transition: all 0.3s;
