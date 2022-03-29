@@ -1,30 +1,18 @@
 @font-face {
     font-family: 'Inter';
-    src: url('../fonts/fontface/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype'),
-         url('../fonts/fontface/Inter/static/Inter-Black.ttf') format('truetype'),
-         url('../fonts/fontface/Inter/static/Inter-Bold.ttf') format('truetype'),
-         url('../fonts/fontface/Inter/static/Inter-ExtraBold.ttf') format('truetype'),
-         url('../fonts/fontface/Inter/static/Inter-ExtraLight.ttf') format('truetype'),
-         url('../fonts/fontface/Inter/static/Inter-Medium.ttf') format('truetype'),
-         url('../fonts/fontface/Inter/static/Inter-Regular.ttf') format('truetype'),
-         url('../fonts/fontface/Inter/static/Inter-SemiBold.ttf') format('truetype'),
-         url('../fonts/fontface/Inter/static/Inter-Thin.ttf') format('truetype');
-    font-display: fallback;
+    src: url('../fonts/fontfaces/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Mulish';
-    src: url('../fonts/fontface/Mulish/Mulish-Italic-VariableFont_wght.ttf') format('truetype'),
-         url('../fonts/fontface/Mulish/Mulish-VariableFont_wght.ttf') format('truetype'),
-         url('../fonts/fontface/Mulish/static/Mulish-Black.ttf') format('truetype'),
-         url('../fonts/fontface/Mulish/static/Mulish-Bold.ttf') format('truetype'),
-         url('../fonts/fontface/Mulish/static/Mulish-ExtraBold.ttf') format('truetype'),
-         url('../fonts/fontface/Mulish/static/Mulish-ExtraLight.ttf') format('truetype'),
-         url('../fonts/fontface/Mulish/static/Mulish-Italic.ttf') format('truetype'),
-         url('../fonts/fontface/Mulish/static/Mulish-Medium.ttf') format('truetype'),
-         url('../fonts/fontface/Mulish/static/Mulish-Regular.ttf') format('truetype'),
-         url('../fonts/fontface/Mulish/static/Mulish-SemiBold.ttf') format('truetype'),
-         url('../fonts/fontface/Mulish/static/Mulish-SemiBoldItalic.ttf') format('truetype');
-    font-display: fallback;
+    src: url('../fonts/fontfaces/Mulish/Mulish-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/fontfaces/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/fontfaces/Poppins/Poppins-Regular.ttf') format('truetype');
 }
 h1,h2,h3,h4,h5{
     font-family: 'Mulish', sans-serif;
