@@ -780,6 +780,9 @@ th, td{
     .s-hero-3 span{
         font-size: 3.5rem !important;
     }
+    nav span{
+        font-size: 3.2rem !important;
+    }
 }
 @media only screen and (max-width: 991px) and (min-width: 480px)  {
     h1{
@@ -791,5 +794,7 @@ th, td{
     span{
         font-size: 4.7rem !important;
     }
-    
+    nav span{
+        font-size: 3.2rem !important;
+    }
 }
