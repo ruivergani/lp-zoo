@@ -441,6 +441,10 @@
     .s-products .container .news__card {
         max-width: 100%;
     }
+    .s-products .container .events{
+        justify-content: center;
+        align-items: center;
+    }
     .s-products .container .events img {
         display: flex;
         align-items: center;

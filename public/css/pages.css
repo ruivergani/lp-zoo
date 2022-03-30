@@ -536,6 +536,11 @@ article.pictures-help .pics img:hover{
     opacity: 0.85;
     transform: scale(1.05);
 }
+@media (max-width: 375px){
+    .s-hero-4{
+        height: 90rem !important;
+    }
+}
 @media (max-width: 991px){
     .s-hero-4{
         margin-top: 5rem;
@@ -559,8 +564,9 @@ article.pictures-help .pics img:hover{
         right: 0px; /* image boy position */
         bottom: 0px;
         max-width: 13.5rem;
+        margin-top: 1rem;
     }
-    .s-hero-4 .container button {
+    .s-hero-4 .container a.btn-sucess {
         margin-top: 0rem;
     }
     .s-help{
@@ -809,10 +815,10 @@ th, td{
     h1{
         font-size: 3.8rem;
     }
-    h2{
+    h3{
         font-size: 3rem;
     }
-    h3{
+    h2{
         font-size: 2rem;
     }
     p{
@@ -830,12 +836,15 @@ th, td{
     nav span{
         font-size: 3.2rem !important;
     }
+    .btn-sucess{
+        margin-top: 5rem;
+    }
 }
 @media only screen and (max-width: 991px) and (min-width: 480px)  {
     h1{
         font-size: 4.5rem;
     }
-    h3{
+    h2{
         font-size: 2.3rem;
     }
     span{
@@ -843,5 +852,8 @@ th, td{
     }
     nav span{
         font-size: 3.2rem !important;
+    }
+    .btn-sucess{
+        margin-top: 5rem;
     }
 }
