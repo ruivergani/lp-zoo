@@ -7,6 +7,7 @@ header{
 header .container nav ul li a:hover{
     color: rgba(255, 255, 255, 0.918);
 }
+
 .s-hero-2{
     width: 100%;
     margin-top: 8rem;
@@ -43,7 +44,13 @@ header .container nav ul li a:hover{
     /* secondary-color */
     color: var(--secondary-color);
 }
-
+.s-hero-2 .container .text h2{
+    /* D. Paragraph/Text-18 */
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.9rem;
+    line-height: 150%;
+    color: var(--grey-400);
+}
 /* === Section Our Values === */
 .s-values{
     width: 100%;
@@ -61,7 +68,7 @@ header .container nav ul li a:hover{
     width: 100%;
     max-width: 48.5rem;
 }
-.s-values .container .values__text h2{
+.s-values .container .values__text h3{
     padding-bottom: 2rem;
     color: var(--text-light);
 }
@@ -99,7 +106,7 @@ header .container nav ul li a:hover{
 .s-map .container .map__image img:hover{
     opacity: 0.85;
 }
-.s-map .container .map__text h2{
+.s-map .container .map__text h3{
     color: var(--text-light);
     padding-bottom: 2rem;
 }
@@ -128,7 +135,7 @@ header .container nav ul li a:hover{
     align-items: flex-start;
     justify-content: space-between;
 }
-.s-address .container h2{
+.s-address .container h3{
     color: var(--text-light);
     padding-bottom: 3rem;
 }
@@ -159,7 +166,7 @@ header .container nav ul li a:hover{
     justify-content: center;
     flex-direction: column;
 }
-.s-newsletter .container h2{
+.s-newsletter .container h3{
     color: var(--text-light);
     padding-bottom: 2rem;
 }
