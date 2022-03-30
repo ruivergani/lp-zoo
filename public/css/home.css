@@ -20,7 +20,7 @@
 .s-hero .container .main-text h1{
     color: var(--white);
 }
-.s-hero .container .main-text h3{
+.s-hero .container .main-text h2{
     padding-top: 30px;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -69,7 +69,7 @@
         justify-content: center;
         gap: 5rem;
     }
-    .s-hero .container .main-text h1,h3 {
+    .s-hero .container .main-text h1,h2 {
         text-align: center;
     }
     .s-hero .container .main-text__buttons {
@@ -123,7 +123,7 @@
 }
 .s-promotion__hours__text p{
     padding-top: 1rem;
-    color: var(--grey-400);
+    color: var(--grey-600);
     font-family: Mulish;
     font-size: 2rem;
     line-height: 112%;
@@ -136,7 +136,7 @@
     align-items: center;
 }
 .icon__subtitle p{
-    color: var(--grey-300);
+    color: var(--grey-600);
     margin-right: 1.5rem;
     transition: all 0.3s;
 }
@@ -171,14 +171,14 @@
     width: 100%;
     max-width: 48.5rem;
 }
-#s-animals .container .animals__text h2{
+#s-animals .container .animals__text h3{
     color: #5C940D;
     width: 100%;
     max-width: 27.8rem;
 }
 #s-animals .container .animals__text p{
     /* Grey / 300 */
-    color: var(--grey-300);
+    color: var(--grey-600);
     padding-top: 2rem;
     padding-bottom: 2.5rem;
 }
@@ -207,7 +207,7 @@
         text-align: center;
         gap: 3rem;
     }
-    #s-animals .container .animals__text h2 {
+    #s-animals .container .animals__text h3 {
         max-width: 100%;
     }
 }
@@ -229,7 +229,7 @@
     padding-bottom: 3rem;
 }
 .s-phrase .container p{
-    color: rgba(255, 255, 255, 0.81);
+    color: rgba(255, 255, 255, 0.99);
     font-family: 'Mulish', sans-serif;
     font-size: 2.4rem;
     line-height: 150%;
@@ -257,7 +257,7 @@
     font-size: 2rem;
     line-height: 120%;
     letter-spacing: -0.5px;
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(255, 255, 255, 0.99);
 }
 /* === Responsive ==== */
 @media (max-width: 991px){
@@ -291,13 +291,13 @@
     max-width: 48.5rem;
     text-align: justify;
 }
-.about-us__text h2{
+.about-us__text h3{
     color: var(--text-light);
     padding-bottom: 2rem;
 }
 .about-us__text p{
     padding-bottom: 2rem;
-    color: var(--grey-300);
+    color: var(--grey-600);
 }
 .about-us__text a p{
     display: flex;
@@ -344,14 +344,14 @@
     align-items: flex-start;
     justify-content: space-between;
 }
-.s-products .container h2{
+.s-products .container h3{
     width: 100%;
     max-width: 28.9rem;
     color: var(--text-light);
     padding-bottom: 20px;
 }
 .s-products .container p{
-    color: var(--grey-300);
+    color: var(--grey-600);
     padding-bottom: 2.5rem;
     max-width: 48.5rem;
 }
@@ -431,7 +431,7 @@
         gap: 8rem;
         justify-content: center;
     }
-    .s-products .container h2, .s-products .container p {
+    .s-products .container h3, .s-products .container p {
         max-width: 100%;
     }
     .s-products .container .news {

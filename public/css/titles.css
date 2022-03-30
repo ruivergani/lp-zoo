@@ -1,14 +1,17 @@
 @font-face {
     font-family: 'Inter';
     src: url('../fonts/fontfaces/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-display: fallback; /* Define how the browser behaves during download */
 }
 @font-face {
     font-family: 'Mulish';
     src: url('../fonts/fontfaces/Mulish/Mulish-VariableFont_wght.ttf') format('truetype');
+    font-display: fallback; /* Define how the browser behaves during download */
 }
 @font-face {
     font-family: 'Nunito';
     src: url('../fonts/fontfaces/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+    font-display: fallback; /* Define how the browser behaves during download */
 }
 @font-face {
     font-family: 'Poppins';
@@ -27,18 +30,18 @@ h1{
     font-size: 64px;
 }
 h2{
-    font-weight: bold;
-    font-size: 4rem;
+    /* Heading 03 */
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 150%;
 }
 h3,h4{
      /* identical to box height, or 36px */
      letter-spacing: -0.5px;
 }
-h3{
-    /* Heading 03 */
-    font-weight: 600;
-    font-size: 2.4rem;
-    line-height: 150%;
+h2{
+    font-weight: bold;
+    font-size: 4rem;
 }
 h4{
     /* Heading 04 */
