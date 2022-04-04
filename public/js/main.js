@@ -1,5 +1,4 @@
 // Script to change background color header
-
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
         $("#m-header").addClass("bgON");
@@ -10,10 +9,8 @@ $(window).on("scroll", function() {
   });
 
 // Menu Mobile
-
 const btn_mobile = document.querySelectorAll('.btn-mobile');
 const nav = document.querySelector('#main-nav')
-
 btn_mobile.forEach(btn => {
     btn.addEventListener('click', function() {
         nav.classList.toggle('active')
