@@ -12,7 +12,7 @@
 @media (min-width: 124.6rem) { /* override the larger screens media query */
     .container{
         padding: 0px 1rem;
-        max-width: 144rem;
+        max-width: 136rem;
     }
     
 }
