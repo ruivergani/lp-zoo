@@ -18,4 +18,3 @@ btn_mobile.forEach(btn => {
         nav.classList.toggle('active')
     })
 })
-const txtHero = document.getElementById('js-main-text');
