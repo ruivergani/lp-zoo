@@ -19,10 +19,3 @@ btn_mobile.forEach(btn => {
     })
 })
 const txtHero = document.getElementById('js-main-text');
-
-// Animation from fadeIn
-window.addEventListener('load', fadeFunction);
-
-function fadeFunction(){
-    txtHero.classList.add('actived');
-}

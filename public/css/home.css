@@ -19,10 +19,6 @@
     opacity: 0; /* transition does not apply to display */
     pointer-events: all;
 }
-.s-hero .container .main-text.actived{
-    opacity: 1;
-    animation: fadeIn .3s forwards;
-}
 .s-hero .container .main-text h1{
     color: var(--white);
 }
