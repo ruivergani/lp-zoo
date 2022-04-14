@@ -1,12 +1,14 @@
-// Script to change background color header
-$(window).on("scroll", function() {
-    if($(window).scrollTop() > 50) {
-        $("#m-header").addClass("bgON");
-    } else {
-        //remove the background property so it comes transparent again (defined in your css)
-       $("#m-header").removeClass("bgON");
+const header = document.getElementById('js-header');
+// Change color menu
+function fixedMenu(){
+    if(window.pageYOffset > 50){ // get the height of the menu fixed after 80px
+      header.classList.add('bgON');
     }
-  });
+    else{
+      header.classList.remove('bgON');
+    }
+  }
+document.addEventListener('scroll', fixedMenu); // get only the scroll of the page
 
 // Menu Mobile
 const btn_mobile = document.querySelectorAll('.btn-mobile');
@@ -16,3 +18,11 @@ btn_mobile.forEach(btn => {
         nav.classList.toggle('active')
     })
 })
+const txtHero = document.getElementById('js-main-text');
+
+// Animation from fadeIn
+window.addEventListener('load', fadeFunction);
+
+function fadeFunction(){
+    txtHero.classList.add('actived');
+}

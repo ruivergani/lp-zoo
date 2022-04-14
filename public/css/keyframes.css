@@ -20,3 +20,13 @@
         transform: translateX(0px);
     }
 }
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* apagado e posicionado na direita */
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+}
