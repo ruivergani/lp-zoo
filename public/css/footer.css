@@ -36,6 +36,10 @@ footer .container .footer__top ul li a{
     /* or 20px */
     color: var(--grey-300);
 }
+footer .container .footer__top ul:last-child li:nth-child(5) a{
+    font-weight: bold;
+    color: #88B300 !important;
+}
 footer .container .footer__bottom{
     display: flex;
     align-items: center;

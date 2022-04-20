@@ -266,6 +266,14 @@ input[type=text] {
     padding-bottom: 2rem;
     text-align: justify;
 }
+.s-week-animal .container .animals__text ol{
+    margin-bottom: 20px;
+}
+.s-week-animal .container .animals__text ol li{
+    line-height: 150%;
+    color: var(--grey-500);
+    
+}
 .s-week-animal .container .animals__text a p{
     display: flex;
     align-items: center;
