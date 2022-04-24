@@ -6,6 +6,7 @@
     /* Source image: pexels.com - Author: Jordan (lions.jpg) */
     padding-top: 21.6rem;
     background-color: #080D10;
+    background-size: cover !important;
 }
 .s-hero .container{
     display: flex;
