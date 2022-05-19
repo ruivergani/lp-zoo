@@ -59,6 +59,9 @@
 }
 /* === Responsive ==== */
 @media (max-width: 480px){
+    .s-hero{
+       background-position-x: 50% !important;
+    }
 }
 @media (max-width: 991px){
     .s-hero{
@@ -88,6 +91,7 @@
 @media only screen and (max-width: 991px) and (min-width: 480px)  {
     .s-hero{
         padding-top: 18rem;
+        
     }
 }
 
