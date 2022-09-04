@@ -18,6 +18,7 @@
 .s-hero .container .main-text{
     width: 100%;
     max-width: 51.8rem;
+    animation: leftRight 1s ease 0s 1 normal forwards;
 }
 .s-hero .container .main-text h1{
     color: var(--white);
@@ -39,6 +40,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    animation: rightLeft 1s ease 0s 1 normal forwards;
 }
 .s-hero .social-media ul li a{
     background: rgba(255, 255, 255, 0.1);
@@ -116,6 +118,7 @@
     gap: 3rem;
     width: 100%;
     padding: 67px 30px;
+    animation: downUp 1.2s ease 0s 1 normal forwards;
 }
 .s-promotion .container .s-promotion__hours{
     box-shadow: 0px 0px 40px rgba(122, 119, 134, 0.1);
@@ -176,6 +179,7 @@
 #s-animals .container .animals__text{
     width: 100%;
     max-width: 48.5rem;
+    animation: leftRight 1.5s ease 0s 1 normal forwards;
 }
 #s-animals .container .animals__text h3{
     color: #5C940D;
@@ -191,6 +195,7 @@
 #s-animals .container .animals__figures{
     display: flex;
     gap: 1.5rem;
+    animation: rightLeft 1.5s ease 0s 1 normal forwards;
 }
 #s-animals .container .animals__figures img {
     transition: all 0.3s;
